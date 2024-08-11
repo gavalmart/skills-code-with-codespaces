@@ -12,9 +12,8 @@
       "codespaces": {
           "openFiles": ["codespace.md"]
       }
-
-  }
-
+  },
+  "postCreateCommand": "echo '# Writing code upong Codespaces creation!' >> codespace.md"
 
 
 }
