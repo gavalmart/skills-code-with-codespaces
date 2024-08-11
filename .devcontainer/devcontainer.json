@@ -2,5 +2,19 @@
   "name": "Codespace for Skills",
   "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
   "remoteUser": "codespace",
-  "overrideCommand": false
+  "overrideCommand": false,
+
+  //Add the IDs of extensionas you want installed
+  "customizations": {
+      "vscode": {
+          "extensions": ["GitHub.copilot"]
+        },
+      "codespaces": {
+          "openFiles": ["codespace.md"]
+      }
+
+  }
+
+
+
 }
